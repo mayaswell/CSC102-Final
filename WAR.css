@@ -1,0 +1,141 @@
+body {
+    background: radial-gradient(circle at top, #850606, transparent), radial-gradient(circle at bottom, #740208, transparent);
+    background-size:auto;
+    background-repeat:round;
+}
+.resultImg {
+    background-image: url(backgroundNew.jpg);
+    border-radius: 10px 10px 10px 10px;
+}
+img {
+    border-style: groove;
+    border-width: 7px;
+    border-color: black;
+    background-image: url(backgroundNew.jpg);
+    border-radius: 10px 10px 10px 10px;
+}
+h1 {
+    border-style: groove;
+    border-width: 7px;
+    border-color: black;
+    position: absolute;
+    right: 40%;
+    background-image: url(backgroundNew.jpg);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+h2 {
+    border-style: groove;
+    border-width: 7px;
+    border-color: black;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background-image: url(backgroundNew.jpg);
+    border-radius: 10px 10px 10px 10px;
+}
+.player {
+    position:absolute;
+    top: 10%;
+    left: 30%;
+    border-radius: 10px 10px 10px 10px;
+}
+.playImg {
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 10px 10px 10px 10px;
+}
+.playImg1 {
+    position:absolute;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px 10px 10px 10px;
+}
+.vlad {
+    position:absolute;
+    top: 10%;
+    right: 36%;
+    border-radius: 10px 10px 10px 10px;
+}
+.vladImg {
+    position:absolute;
+    top: 20%;
+    right: 30%;
+    border-radius: 10px 10px 10px 10px;
+}
+.vladImg1 {
+    position:absolute;
+    top: 30%;
+    right: 30%;
+    border-radius: 10px 10px 10px 10px;
+}
+.resultButton {
+    position: absolute;
+    bottom: 50%;
+    right: 48%;
+    border-radius: 10px 10px 10px 10px;
+}
+.resultImg {
+    position: absolute;
+    bottom: 30%;
+    right: 47%;
+    border-radius: 10px 10px 10px 10px;
+}
+button {
+    background-color: #9cb81e;
+    border: none;
+    color: rgb(109, 248, 16);
+    text-align: center;
+    text-decoration: bold;
+    font-size: 16px;
+    cursor:crosshair;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+button:hover {
+	text-decoration: bold;
+    color: whitesmoke;
+    padding: 21px;
+}
+#warnav a {
+    position: absolute;
+    left: -150px; /* This puts them outside the screen */
+    transition: .7s; /* smooooooth transitions are nice */
+    padding: 15px;
+    width: 160px;
+    height: 50px; 
+    text-decoration:none;
+    color: white; 
+    border-radius: 0 10px 10px 0; /* I like rounded corners*/
+  }
+  
+  #warnav a:hover {
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    left: 0; /* On mouse-over, make the nav elements pop out */
+  }
+  
+
+  #WAR {
+    font-size: 24px;
+    top: 20%;
+    background-color: #7e0909;
+  }
+  
+  #palindrome {
+    font-size: 25px;
+    top: 29%;
+    background-color: #f44336;
+  }
+  
+  #king {
+    font-size: 26px;
+    top: 38%;
+    background-color: #19850f;
+  }
+  
+  #boards {
+    font-size: 30px;
+    top: 47%;
+    background-color: #738283;
+  }

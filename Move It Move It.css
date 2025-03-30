@@ -1,0 +1,120 @@
+body {
+    background: url(Background\ Blank.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+button:hover {
+    background-color: yellowgreen;
+    cursor:grab;
+}
+img:hover {
+    cursor:not-allowed;
+}
+#controls {
+    position: absolute;
+    top: 2%;
+    left: 80%;
+}
+.hidden {
+    position: absolute;
+    top: 92%;
+    left: 95%;
+}
+button {
+    padding: 5px;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: forestgreen;
+    background-color: darkgreen;
+    border-radius: 40px;
+}
+.buttonNotMove {
+    position:absolute;
+    left: 2%;
+    top: 65%;
+}
+.buttonMove {
+    position:absolute;
+    left: 2%;
+    top: 37%;
+}
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -220px;
+    width: 450px;
+    height: 100px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: antiquewhite;
+    text-shadow: 2px 2px greenyellow;
+    border-radius: 15px;
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 30px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: antiquewhite;
+    border-radius: 15px;
+    text-align: center;
+}
+.cornerLeaves {
+    position: absolute;
+    top: 33%;
+    left: 78%;
+}
+#movenav a {
+    position: absolute;
+    left: -150px; /* This puts them outside the screen */
+    transition: .7s; /* smooooooth transitions are nice */
+    padding: 15px;
+    width: 160px;
+    height: 50px; 
+    text-decoration:none;
+    color: white; 
+    border-radius: 0 10px 10px 0; /* I like rounded corners*/
+  }
+  
+  #movenav a:hover {
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    left: 0; /* On mouse-over, make the nav elements pop out */
+  }
+  
+
+  #WAR {
+    font-size: 24px;
+    top: 1%;
+    background-color: #7e0909;
+  }
+  
+  #palindrome {
+    font-size: 25px;
+    top: 10%;
+    background-color: #f44336;
+  }
+  
+  #king {
+    font-size: 26px;
+    top: 19%;
+    background-color: #19850f;
+  }
+  
+  #boards {
+    font-size: 30px;
+    top: 28%;
+    background-color: #738283;
+  }

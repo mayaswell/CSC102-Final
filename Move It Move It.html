@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--The next two lines are the sources for JS and CSS-->
+    <script src = "Move It Move It.js"></script>
+    <link rel="stylesheet" href="Move It Move It.css">
+<!--Funny title for King Julian-->
+    <title>LONG LIVE THE KING</title>
+</head>
+<body>
+  <nav>
+    <div id="movenav" class="sidenav">
+        <a href="WAR.html" id="WAR">Join the Fight</a>
+        <a href="Palindrome Checker.html" id="palindrome">Palindromes</a>
+        <a href="IndexUSEME.html" id="king">Home</a>
+        <a href="Boards.html" id="boards">Boards</a>
+      </div>
+</nav>
+<!--This is just a header-->
+  <h1>How far will you send the king?</h1>
+  <br>
+<!--This next line prints the distance Julian has gone-->
+  <h2 id = "distance"></h2>
+<!--This div class just makes CSS and JS manipulation easier-->
+  <div class="buttonMove">
+<!--This button starts the King on his rightways journey-->
+    <button id = "moveIt" onclick = "move();" >I would like to move it</button>
+   <br>
+   <!--Extra breaks for neatness-->
+   <br>
+  </div>
+  <!--This div class just makes CSS and JS manipulation easier-->
+  <div class="buttonNotMove">
+    <!--This button stops the King on his rightways journey. It also reloads the page so it resets-->
+   <button id = "notMoveIt" onclick = "notMove();">I actually would not like to move it</button>
+   <br>
+  </div>
+<!--This is the main image that moves. It also changes the image when it is clicked-->
+   <img src = "King Julian Main1.png" id = "imgMeme" style = "position: absolute;
+     top: 42%; left: 1%; width:150px;" onclick = "changeKing()";/>
+<p>
+<!--I had trouble getting the background where I wanted it so this is how I did it. Separate class and tag-->
+  <div class="cornerLeaves">
+<!--Problem child background image. I think it was the image.-->
+  <img src = "Background Leaves.png"/>
+  </div>
+</p>
+ </body>
+<footer>
+<!--I put in some jungle sounds for the ambiance-->
+  <audio controls id = "controls">
+    <source src = "Main Audio.wav"></source>
+  </audio>
+<!--div class for the little easter egg button-->
+<div class = "hidden">
+<!--Silly little button that opens up a few alerts. I also had it delay and change the picture-->
+  <button id = "donot" onclick = "what();">Definitely don't press this</button>
+  <br>
+</div>
+</footer>
+</html> 

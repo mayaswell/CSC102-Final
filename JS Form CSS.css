@@ -1,0 +1,115 @@
+#palBody {
+    background-color: #f44336;
+}
+#logBody {
+    background-color: #0faa90;
+}
+#login {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    padding: 5px;
+    background-color: #738283;
+    border-radius: 10px 10px 10px 10px;
+    text-align: right;
+    border-width: medium;
+    border-style: groove;
+}
+#loginButton {
+    position: absolute;
+    top: 102%;
+    left: 42%;
+    border-radius: 10px 10px 10px 10px;
+}
+#loginButton:hover {
+    cursor:grab;
+    background-color: #738283;
+}
+#loginStatus {
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    border-width: medium;
+    text-align: center;
+    width: 200px;
+}
+#palHead {
+    position: absolute;
+    top: 18%;
+    left: 43%;
+}
+#palCheckForm {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    padding: 5px;
+    background-color: #13676d;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    border-width: medium;
+    border-style: groove;
+    width: 500px;
+}
+#palStatus {
+    position: absolute;
+    top: 32%;
+    left: 35%;
+    border-radius: 10px 10px 10px 10px;
+    border-style: groove;
+    border-width: medium;
+    text-align: center;
+    width: 500px;
+}
+p {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+#loginHeader {
+    position: absolute;
+    top: 18%;
+    left: 42%;
+}
+#palnav a {
+    position: absolute;
+    left: -150px; /* This puts them outside the screen */
+    transition: .7s; /* smooooooth transitions are nice */
+    padding: 15px;
+    width: 160px;
+    height: 50px; 
+    text-decoration:none;
+    color: white; 
+    border-radius: 0 10px 10px 0; /* I like rounded corners*/
+  }
+  
+  #palnav a:hover {
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    left: 0; /* On mouse-over, make the nav elements pop out */
+  }
+  
+
+  #WAR {
+    font-size: 24px;
+    top: 20%;
+    background-color: #7e0909;
+  }
+  
+  #pal {
+    font-size: 25px;
+    top: 29%;
+    background-color: #f3867f;
+  }
+  
+  #king {
+    font-size: 26px;
+    top: 38%;
+    background-color: #19850f;
+  }
+  
+  #boards {
+    font-size: 30px;
+    top: 47%;
+    background-color: #738283;
+  }

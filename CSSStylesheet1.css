@@ -1,0 +1,146 @@
+body {
+    background: radial-gradient(circle at right, #2f5015, transparent),
+            radial-gradient(circle at left, #2f5015, transparent);
+    background-repeat: repeat;
+    Background-position: left top;
+}
+#tableHome {
+    background-color: #2f5015;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 65%;
+    left: 18%
+}
+footer{
+    background-color: #2f5015;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    color:black;
+    position: absolute;
+    top: 95%;
+    left: 10%;
+}
+p {
+    color: black;
+    font-size: 20px;
+    background-color: #2f5015;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 750px;
+    margin: auto;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+}
+h1 {
+    color: whitesmoke;
+    max-width: 900pxx;
+    background-color: #2f5015;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+h2 {
+    color: magenta;
+    background-color: rgb(47, 97, 62);
+    position: absolute;
+    top: 93%;
+    right: 10%;
+}
+h6 {
+    color: darkolivegreen;
+    max-width: 500px;
+    margin: auto;
+    opacity: 0.2;
+}
+#pusher {
+    background-color: #3956d6;
+    border: none;
+    color: rgb(157, 139, 206);
+    text-align: center;
+    text-decoration: bold;
+    font-size: 16px;
+    cursor:crosshair;
+    padding: 15px;
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    border-radius: 15px 15px 15px 15px;
+}
+#pusher:hover {
+	text-decoration: bold;
+    color: whitesmoke;
+    padding: 16px;
+}
+ul {
+    list-style-type: square;
+    background: #dfdb0b;
+    padding: 20px;
+    width: 500px;
+    max-width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+ul li {
+    background: #6dbd22;
+    color: rgb(23, 90, 17);
+    margin: 5px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#meme {
+    padding: 20px;
+    border-style: ridge;
+    border: 10px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+#mainnav a {
+    position: absolute;
+    left: -150px; /* This puts them outside the screen */
+    transition: .7s; /* smooooooth transitions are nice */
+    padding: 15px;
+    width: 160px;
+    height: 50px; 
+    text-decoration:none;
+    color: white; 
+    border-radius: 0 10px 10px 0; /* I like rounded corners*/
+  }
+  
+  #mainnav a:hover {
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    left: 0; /* On mouse-over, make the nav elements pop out */
+  }
+  
+
+  #WAR {
+    font-size: 24px;
+    top: 20%;
+    background-color: #7e0909;
+  }
+  
+  #palindrome {
+    font-size: 25px;
+    top: 29%;
+    background-color: #f44336;
+  }
+  
+  #king {
+    font-size: 26px;
+    top: 38%;
+    background-color: #19850f;
+  }
+  
+  #boards {
+    font-size: 30px;
+    top: 47%;
+    background-color: #738283;
+  }

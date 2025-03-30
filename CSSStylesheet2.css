@@ -1,0 +1,113 @@
+body {
+    background-image: url("new\ tech.jpg");
+    background-repeat: no-repeat;
+    Background-position: center, bottom;
+    margin: auto;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+p {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+}
+footer{
+    background-color: #b4b4b4;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    color:black;
+    position: absolute;
+    top: 95%;
+    left: 3%;
+    font-size: 18px;
+}
+a:hover {
+    color: blanchedalmond;
+}
+#mainList {
+    list-style-type: square;
+    background: #a0a096;
+    padding: 20px;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+#mainList li {
+    background: #7a8a84;
+    color: rgb(11, 14, 15);
+    margin: 5px;
+    max-width: 650px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+#links {
+    list-style-type: square;
+    background: #a0a096;
+    padding: 20px;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+#links li {
+    background: #8b8a91;
+    color: rgb(11, 14, 15);
+    margin: 5px;
+    max-width: 650px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+#links li:hover {
+    color: blanchedalmond;
+}
+#boardnav a {
+    position: absolute; 
+    left: -150px; /* This puts them outside the screen */
+    transition: .7s; /* smooooooth transitions are nice */
+    padding: 15px;
+    width: 160px;
+    height: 50px; 
+    text-decoration:none;
+    color: white; 
+    border-radius: 0 10px 10px 0; /* I like rounded corners*/
+  }
+  
+  #boardnav a:hover {
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    left: 0; /* On mouse-over, make the nav elements pop out */
+  }
+
+  #WAR {
+    font-size: 24px;
+    top: 20%;
+    background-color: #7e0909;
+  }
+  
+  #palindrome {
+    font-size: 25px;
+    top: 29%;
+    background-color: #f44336;
+  }
+  
+  #king {
+    font-size: 26px;
+    top: 38%;
+    background-color: #19850f;
+  }
+  
+  #boards {
+    font-size: 30px;
+    top: 47%;
+    background-color: #738283;
+  }

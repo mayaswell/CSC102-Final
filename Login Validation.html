@@ -1,0 +1,44 @@
+<!--Maya Holloway-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--Just the head stuff, I don't change anything here-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title for the page, shows in the tab at the top-->
+    <title>Dashboard Login</title>
+    <!--This tells the HTML where to go for JS-->
+<script src="Login Validation.js"></script>
+<!--This is where the HTML goes to look for CSS-->
+<link rel="stylesheet" href="JS Form CSS.css">
+</head>
+<!--Where the content goes-->
+<body id = "logBody">
+    <!--just the heading for the page-->
+    <h1 id = "loginHeader">Login To Your Dashboard</h1>
+    <!--this is the start of the form, and makes sure that the form works correctly-->
+    <form id = "login" onsubmit="return false">
+<!--these next few lines make the boxes for the user to type in, as well as where the input is stored-->
+First name: <input type = "text" id = "fName"/>
+<br>
+<!--I put extra breaks here because it looked neater to me-->
+<br>
+Last Name: <input type = "text" id = "lName"/>
+<br>
+<br>
+Identification Number: <input type = "number" id = "idNumb"/>
+<br>
+<br>
+Activation Phrase: <input type = "password" id = "actPhrase"/>
+<br>
+<br>
+<!--This sets the button and tells JS to run when the button is clicked-->
+<input id = "loginButton" type = "submit" onclick = "authenticate();">
+
+    </form>
+<!--Where the user will see the updates for their inputs-->
+<p id = "loginStatus">Status of Login</p>
+
+
+</body>
+</html>

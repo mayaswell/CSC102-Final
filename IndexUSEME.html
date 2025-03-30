@@ -1,0 +1,105 @@
+<!--Maya Holloway, Mar 29, 2025-->
+<!DOCTYPE html>
+<!--Doctype is how it is read (browser stuff)-->
+<html lang="en">
+<head>
+    <script src = "NavandPieces.js"></script>
+    <!--I don't mess with head stuff yet. This sets the language and scaling.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is the stylesheet for the site. It is external, as all stylesheets should be-->
+    <link rel="stylesheet" href="CSSStylesheet1.css">
+    <!--This title shows up in the tab name-->
+    <title>Plants are pretty cool!</title>
+</head>
+<!--alas, it is a meme-->
+<img id = "meme" src = "Human-Prevailed-But-Nature-Always-Wins-Funny-Meme-Picture.jpg">
+<!--This is where the content goes. I'm going to start this simply to make sure I understand the basics.-->
+<body>
+<!--navigation bar, it slides out on hover because I can't just have things sit there-->
+<nav>
+    <div id="mainnav" class="sidenav">
+        <a href="WAR.html" id="WAR">Join the Fight</a>
+        <a href="Palindrome Checker.html" id="palindrome">Palindromes</a>
+        <a href="Move It Move It.html" id="king">King Julian</a>
+        <a href="Boards.html" id="boards">Boards</a>
+      </div>
+</nav>
+<!--main header-->
+    <h1>Grow more of your own food and lower your grocery bill!</h1>
+
+<!--paragraph start and end-->
+<p>
+    Money does not create oxygen! No matter how much cash resides in your pockets, bank account, or trust fund,
+    it won't keep your pantry stocked if there isn't anything on the shelves in a grocery store. Growing
+    a small amount of your own food can lower your monthly spending, provide additional nutrition you might be
+    lacking, and allows for a sense of security in uncertain times. A lot of plants only require a small amount
+    of space and can be grown anywhere, even indoors! Something as simple as growing a basil plant in your
+    windowsill is the first step in sustaining yourself and your household.
+    Here are some basic staples that can be
+    grown by beginners and green thumbs alike.
+</p>
+
+<!--Different main header-->
+    <h2>Be intolerant of intolerance</h2>
+
+<!--Fun button that plays a song and the text changes to match the song-->
+    <button id = "pusher" onclick = "satisfaction()">push me</button>
+<!--This is my table. I decided to use plants because that is my thing.-->
+    <table id = "tableHome" border = "2" width = 45%>
+        <col style = "background-color: whitesmoke;">
+        <col style = "background-color: rgb(236, 204, 166);">
+        <col style = "background-color: rgb(102, 86, 88);">
+        <col style = "background-color: rgb(149, 154, 224);">
+        <col style = "background-color: rgb(114, 223, 181);">
+<!--Table header here-->
+        <thead>
+            <th style ="width: 5%">Food that is Easy to Grow</th>
+            <th style ="width: 5%">Lettuce</th>
+            <th style ="width: 5%">Tomatoes</th>
+            <th style ="width: 5%">Peppers</th>
+            <th style ="width: 5%">Radish</th>
+        </thead>
+<!--Table body. Where the table content goes.-->
+        <tbody>
+<!--I named the rows according to the first line because it made sense to me-->
+            </tr>
+            <tr id = "light">
+                <td>Light Requirements</td>
+                <td>14-16 hours</td>
+                <td>6-9 hours</td>
+                <td>6-12 hours</td>
+                <td>8-10 hours</td>
+            </tr>
+            <tr id = "temp">
+                <td>Temperature Range</td>
+                <td>60-65 F</td>
+                <td>65-75 F</td>
+                <td>65-75 F</td>
+                <td>40-70 F</td>
+            </tr>
+            <tr id = "humidity">
+                <td>Humidity Range</td>
+                <td>50-70%</td>
+                <td>60-80%</td>
+                <td>65-85%</td>
+                <td>40-70%</td>
+            </tr>
+            <tr id = "time">
+                <td>Time to Harvest</td>
+                <td>30-70 days</td>
+                <td>65-85 days</td>
+                <td>60-150 days</td>
+                <td>3-5 weeks</td>
+            </tr>
+            
+            
+        </tbody>
+
+    </table>
+</body>
+<!--This has stayed here from the start.-->
+<footer>
+Copyright 2025 MH
+</footer>
+</html>

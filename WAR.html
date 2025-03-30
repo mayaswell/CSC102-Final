@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAR</title>
+    <!--This links the CSS stylesheet to this HTML document.-->
+    <link rel="stylesheet" href="WAR.css">
+    <!--This links the JS that i created for this, so that the buttons work and the math happens.-->
+    <script src = "WAR.js"></script>
+</head>
+<!--This is where the main content goes.-->
+<body>
+    <nav>
+        <div id="warnav" class="sidenav">
+            <a href="IndexUSEME.html" id="WAR">Back to Safety</a>
+            <a href="Palindrome Checker.html" id="palindrome">Palindromes</a>
+            <a href="Move It Move It.html" id="king">King Julian</a>
+            <a href="Boards.html" id="boards">Boards</a>
+          </div>
+    </nav>
+    <!--War is the name of the game, so I used a common saying from a video game for the header.-->
+    <h1>War...war never changes...</h1>
+    <br>
+    <!--This div class lets us manipulate individual pieces of the document instead of the whole thing.
+    This one is for the "Player" header.-->
+<div class="player">
+    <h2>PLAYER</h2>
+</div>
+<!--This div class is for the player's first dice roll.-->
+<div class="playImg">
+    <img id = "playerImg" width = "75px" height = "75px">
+</div>
+    <br>
+    <!--This div class is for the player's second dice roll.-->
+<div class="playImg1">
+    <img id = "player1Img" width = "75px" height = "75px">
+</div>
+    <br>
+    <!--This div class is for Vladimir's header.-->
+<div class="vlad">
+    <h2>VLADIMIR</h2>
+</div>
+<!--This div class is for Vladimir's first dice roll.-->
+<div class="vladImg">
+    <img id = "vladimirImg" width = "75px" height = "75px">
+    <br>
+</div>
+<!--This div class is for Vladimir's second dice roll.-->
+    <div class="vladImg1">
+    <img id = "vladimir1Img" width = "75px" height = "75px">
+    <br>
+</div>
+<!--This div class is for the results button.-->
+<div class="resultButton">
+    <!--This lets the JS function I wrote happen when the button is clicked.-->
+<button onclick = "war()";>PLAY</button>
+<br>
+</div>
+<!--This div class is for the results image.-->
+<div class="resultImg">
+<img id = "finalResult" width = "100px" height = "100px">
+</div>
+</body>
+</html>

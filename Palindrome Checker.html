@@ -1,0 +1,42 @@
+<!--Maya Holloway-->
+<!DOCTYPE html>
+<html lang="en">
+<!--Just the head stuff, I don't change anything here-->
+<head>
+<!--This tells the HTML where to go for JS-->
+    <script src="Palindrome.js"></script>
+<!--This is where the HTML goes to look for CSS-->
+<link rel="stylesheet" href="JS Form CSS.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--title for the page, shows in the tab at the top-->
+    <title>Checking for 'Dromes</title>
+</head>
+<!--Where the content goes-->
+<body id = "palBody">
+    <nav>
+        <div id="palnav" class="sidenav">
+            <a href="WAR.html" id="WAR">Join the Fight</a>
+            <a href="IndexUSEME.html" id="pal">Home</a>
+            <a href="Move It Move It.html" id="king">King Julian</a>
+            <a href="Boards.html" id="boards">Boards</a>
+          </div>
+    </nav>
+    <h1 id = "palHead">Drome Checker</h1>
+<!--this is the start of the form, and makes sure that the form works correctly-->
+    <form id = "palCheckForm" onsubmit="return false">
+<!--This next line makes the boxe for the user to type in, as well as where the input is stored-->
+
+        Text to Inspect: <input type = "text" id = "origText"/>
+        <br>
+<!--I put extra breaks here because it looked neater to me-->
+        <br>
+<!--This sets the button and tells JS to run when the button is clicked-->
+        <input type = "submit" onclick = "palcheck();">
+        
+            </form>
+<!--Where the user will see the updates for their inputs-->
+        <p id = "palStatus">Palindrome?</p>
+    
+</body>
+</html>
